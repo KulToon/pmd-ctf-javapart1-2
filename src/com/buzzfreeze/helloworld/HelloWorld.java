@@ -18,6 +18,10 @@ public class HelloWorld {
 		int newInt2 = (int)toInt2;
 		System.out.println(newInt2);
 		
+		String finalVar = "Hello";
+		System.out.println(finalVar);
+		finalVar = "World";
+		System.out.println(finalVar);
 		
 		
 		bark();
